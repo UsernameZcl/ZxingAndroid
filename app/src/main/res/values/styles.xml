@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="baseDialog" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowFullscreen">false</item>
+
+        <!--背景透明-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <!--让弹出框呈现圆角-->
+        <item name="android:windowBackground">@drawable/print_back</item>
+
+    </style>
+    <style name="Appheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+
+        <!--背景透明-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <!--让弹出框呈现圆角-->
+        <item name="android:windowBackground">@drawable/print_back</item>
+    </style>
+
+</resources>
